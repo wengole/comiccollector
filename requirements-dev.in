@@ -1,0 +1,10 @@
+-r requirements.txt
+
+django-debug-toolbar
+ipython
+jupyter
+pip-utils
+recommonmark
+sphinx
+sphinx-autobuild
+sphinx_rtd_theme
