@@ -59,10 +59,7 @@ gulp.task('css', 'Build and minify CSS', function () {
             .pipe(plugins.sass(CONFIG.sass.config)
                 .on('error', plugins.sass.logError))
             .pipe(plugins.sourcemaps.write())
-            .pipe(gulp.dest(CONFIG.paths.css.dist))
-            .pipe(browserSync.stream({
-                match: '**/*.css'
-            }));
+            .pipe(gulp.dest(CONFIG.paths.css.dist));
     }
 });
 
