@@ -9,7 +9,7 @@ argh==0.26.2              # via sphinx-autobuild, watchdog
 babel==2.4.0              # via sphinx
 certifi==2017.7.27.1      # via requests
 chardet==3.0.4            # via requests
-commonmark==0.5.4         # via recommonmark
+commonmark==0.7.4         # via recommonmark
 dj-database-url==0.4.2
 django-cache-url==2.0.0
 django-debug-toolbar==1.8
@@ -23,7 +23,7 @@ livereload==2.5.1         # via sphinx-autobuild
 markupsafe==1.0           # via jinja2
 pathtools==0.1.2          # via sphinx-autobuild, watchdog
 pip-utils==0.0.6
-port-for==0.3.1           # via sphinx-autobuild
+port-for==0.4           # via sphinx-autobuild
 psycopg2==2.7.3
 pygments==2.2.0           # via sphinx
 pytz==2017.2              # via babel, django
