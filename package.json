@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/wengole/comiccollector#readme",
   "scripts": {
-    "postinstall": "gulp"
+    "postinstall": "gulp deploy"
   }
 }
