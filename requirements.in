@@ -1,0 +1,12 @@
+Django
+dj-database-url
+django-cache-url
+django-debug-toolbar
+django-extensions
+pip-utils
+psycopg2
+recommonmark
+sphinx
+sphinx-autobuild
+sphinx_rtd_theme
+whitenoise

@@ -1,0 +1,31 @@
+{
+  "name": "comiccollector",
+  "version": "0.2.0",
+  "description": "Django backed comic book collection tracker and organiser",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "fontawesome": "^4.7.2",
+    "foundation-sites": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-help": "^1.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-util": "^3.0.8",
+    "node-sass-tilde-importer": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wengole/comiccollector.git"
+  },
+  "author": "Ben Cole",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wengole/comiccollector/issues"
+  },
+  "homepage": "https://github.com/wengole/comiccollector#readme",
+  "scripts": {
+    "postinstall": "gulp"
+  }
+}
