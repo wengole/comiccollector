@@ -30,6 +30,8 @@ THIRD_PARTY_APPS = (
     'django_extensions',
 )
 COMIC_APPS = (
+    'books',
+    'core',
 )
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + COMIC_APPS
