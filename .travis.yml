@@ -10,8 +10,8 @@ services:
   - postgresql
 install:
   - yarn install
-  - pip install -r requirements.txt
+  - pip install -r requirements-test.txt
   - python manage.py collectstatic --noinput
 before_script:
-  - psql -c 'create role comiccollector with password 'comiccollector' createdb;' -U postgres
+  - psql -c "create role comiccollector with password 'comiccollector' createdb;" -U postgres
 script: pytest
