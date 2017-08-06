@@ -1,5 +1,4 @@
 from django.db import models
-import pytest
 
 from core import behaviors
 
@@ -11,15 +10,14 @@ class TestModel(behaviors.UUIDable, behaviors.Timestampable, models.Model):
         app_label = 'core'
 
 
-class TestTimestampableBehavior():
+def test_timestampable():
+    test_inst = TestModel()
 
-    @pytest.mark.django_db
-    def test_created_at(self):
-        test_inst = TestModel.objects.create()
+    assert hasattr(test_inst, 'created_at')
+    assert hasattr(test_inst, 'modified_at')
 
-        assert test_inst.created_at is not None
-        assert test_inst.modified_at is None
 
-        test_inst.save()
-        test_inst.refresh_from_db()
-        assert test_inst.modified_at is not None
+def test_uuidable():
+    test_inst = TestModel()
+
+    assert hasattr(test_inst, 'id')
