@@ -6,6 +6,9 @@ python:
   - "3.5"
   - "3.6"
   - "nightly"
+cache:
+  - pip
+  - yarn
 install:
   - yarn install
   - pip install -r requirements.txt
