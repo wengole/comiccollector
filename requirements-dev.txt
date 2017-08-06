@@ -49,7 +49,10 @@ port-for==0.3.1           # via sphinx-autobuild
 prompt-toolkit==1.0.15    # via ipython, jupyter-console
 psycopg2==2.7.3
 ptyprocess==0.5.2         # via pexpect, terminado
+py==1.4.34                # via pytest
 pygments==2.2.0           # via ipython, jupyter-console, nbconvert, qtconsole, sphinx
+pytest-django==3.1.2
+pytest==3.2.0             # via pytest-django
 python-dateutil==2.6.1    # via jupyter-client
 pytz==2017.2
 pyyaml==3.12              # via sphinx-autobuild, watchdog

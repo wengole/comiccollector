@@ -4,6 +4,7 @@ django-debug-toolbar
 ipython
 jupyter
 pip-utils
+pytest-django
 recommonmark
 sphinx
 sphinx-autobuild
