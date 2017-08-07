@@ -16,10 +16,12 @@ dj-database-url==0.4.2
 django-cache-url==2.0.0
 django-debug-toolbar==1.8
 django-extensions==1.8.1
+django-redis==4.8.0
 django==1.11.4
 docutils==0.14            # via recommonmark, sphinx
 entrypoints==0.2.3        # via nbconvert
 gunicorn==19.7.1
+hiredis==0.2.0
 html5lib==0.999999999     # via bleach
 idna==2.5                 # via requests
 imagesize==0.7.1          # via sphinx
@@ -59,6 +61,7 @@ pyyaml==3.12              # via sphinx-autobuild, watchdog
 pyzmq==16.0.2             # via jupyter-client
 qtconsole==4.3.0          # via jupyter
 recommonmark==0.4.0
+redis==2.10.5
 requests==2.18.3          # via sphinx
 simplegeneric==0.8.1      # via ipython
 six==1.10.0

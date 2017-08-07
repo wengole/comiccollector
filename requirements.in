@@ -2,6 +2,8 @@ Django
 dj-database-url
 django-cache-url
 django-extensions
+django-redis
 gunicorn
+hiredis
 psycopg2
 whitenoise

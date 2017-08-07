@@ -7,9 +7,12 @@
 dj-database-url==0.4.2
 django-cache-url==2.0.0
 django-extensions==1.8.1
+django-redis==4.8.0
 django==1.11.4
 gunicorn==19.7.1
+hiredis==0.2.0
 psycopg2==2.7.3
 pytz==2017.2              # via django
+redis==2.10.5             # via django-redis
 six==1.10.0               # via django-extensions
 whitenoise==3.3.0
